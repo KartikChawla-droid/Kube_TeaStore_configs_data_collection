@@ -4,7 +4,7 @@ metadata:
   name: teastore-db
   namespace: teastore
 spec:
-  replicas: 1 #db
+  replicas: 2 #db
   selector:
     matchLabels:
       app: teastore
@@ -22,10 +22,10 @@ spec:
             - containerPort: 3306
           resources: #db
             requests:
-              memory: ".2Gi"
-              cpu: "0.1"
+              memory: ".1Gi"
+              cpu: "0.05"
             limits:
-              memory: "1Gi"
+              memory: "2Gi"
               cpu: "1"
 ---
 apiVersion: v1
@@ -49,7 +49,7 @@ metadata:
   name: teastore-registry
   namespace: teastore
 spec:
-  replicas: 2 #registry
+  replicas: 1 #registry
   selector:
     matchLabels:
       app: teastore
@@ -70,11 +70,11 @@ spec:
               value: "true"
           resources: #registry
             requests:
-              memory: "0.25Gi"
-              cpu: "0.01"
+              memory: "0.5Gi"
+              cpu: "0.02"
             limits:
-              memory: "0.25Gi"
-              cpu: "1"
+              memory: "0.5Gi"
+              cpu: "0.15"
 ---
 apiVersion: v1
 kind: Service
@@ -126,11 +126,11 @@ spec:
               value: "teastore-kieker-rabbitmq"
           resources: #persistence 
             requests:
-              memory: ".6Gi"
-              cpu: "0.5"
+              memory: ".5Gi"
+              cpu: "0.6"
             limits:
-              memory: "1Gi"
-              cpu: "1"
+              memory: ".5Gi"
+              cpu: "0.6"
 ---       
 apiVersion: apps/v1
 kind: Deployment
@@ -138,7 +138,7 @@ metadata:
   name: teastore-auth
   namespace: teastore
 spec:
-  replicas: 2 #auth
+  replicas: 1 #auth
   selector:
     matchLabels:
       app: teastore
@@ -163,10 +163,10 @@ spec:
               value: "teastore-kieker-rabbitmq"
           resources: #auth
             requests:
-              memory: "0.5Gi" #512
-              cpu: "0.2"
-            limits:
               memory: "1Gi" #512
+              cpu: "0.4"
+            limits:
+              memory: "2Gi" #512
               cpu: "1"
 ---
 apiVersion: apps/v1
@@ -200,11 +200,11 @@ spec:
               value: "teastore-kieker-rabbitmq"
           resources: #image 
             requests:
-              memory: "0.5Gi"
-              cpu: "0.3"
+              memory: "1Gi"
+              cpu: "0.4"
             limits:
-              memory: "2Gi"
-              cpu: "2"
+              memory: "1Gi"
+              cpu: "1"
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -274,11 +274,11 @@ spec:
               value: "teastore-kieker-rabbitmq"
           resources: #webui
             requests:
-              memory: "1Gi"
+              memory: "0.5Gi"
               cpu: "0.5"
             limits:
               memory: "2Gi"
-              cpu: "1"
+              cpu: "0.5"
 ---
 apiVersion: v1
 kind: Service
