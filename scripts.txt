@@ -1,0 +1,24 @@
+#delete deployments and check
+kubectl delete deployment -n teastore teastore-db
+kubectl delete deployment -n teastore teastore-registry
+kubectl delete deployment -n teastore teastore-webui
+kubectl delete deployment -n teastore teastore-auth
+kubectl delete deployment -n teastore teastore-image
+kubectl delete deployment -n teastore teastore-recommender
+kubectl delete deployment -n teastore teastore-persistence
+kubectl delete deployment -n teastore teastore-kieker-rabbitmq
+kubectl delete service -n teastore teastore-db
+kubectl delete service -n teastore teastore-kieker-rabbitmq 
+kubectl delete service -n teastore teastore-registry
+kubectl delete service -n teastore teastore-webui 
+kubectl get deployments --all-namespaces
+kubectl get pods,services,deployments -n teastore
+
+#set 3 - one liner, but doesn't delete deployments (not sure why)
+kubectl delete pods,deployments,services -n teastore -l app=teastore
+
+#deploying the different configurations 
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c1.yaml
+
+# [Note 1: change the configuration number (c1) to match the corresponding configuration; note 2: the path to the YAML files may change soon]

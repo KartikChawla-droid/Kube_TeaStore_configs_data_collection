@@ -1,0 +1,10 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Thread-Gruppe:Home,8662,280,0,7628,452.27,41.122%,7.13601,44.59,0.96,6398.1
+Thread-Gruppe:Login,8661,376,0,7028,499.00,41.496%,7.13724,49.72,4.79,7133.7
+Thread-Gruppe:List Products,8661,727,0,7769,820.18,42.074%,7.13743,455.04,3.50,65283.5
+Thread-Gruppe:Look at Product,8655,984,0,10019,1191.10,42.403%,7.13246,251.35,3.40,36085.6
+Thread-Gruppe:Add Product to Cart,8637,799,0,10985,1019.37,45.467%,7.11764,53.19,7.47,7652.1
+Thread-Gruppe:List Products with different page,8633,754,0,7871,871.87,45.430%,7.11545,431.20,4.03,62054.9
+Thread-Gruppe:Add Product 2 to Cart,8632,842,0,8663,1069.57,45.633%,7.11459,55.07,8.37,7926.8
+Thread-Gruppe:Logout,8613,420,0,5786,592.53,43.899%,7.10499,49.74,7.80,7168.8
+TOTAL,69154,648,0,10985,886.77,43.438%,56.97056,1389.34,40.29,24972.2
