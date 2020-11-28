@@ -22,3 +22,20 @@ kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-oct
 kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c1.yaml
 
 # [Note 1: change the configuration number (c1) to match the corresponding configuration; note 2: the path to the YAML files may change soon]
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c2.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c3.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c4.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c5.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c6.yaml
+
+-start at c7-
