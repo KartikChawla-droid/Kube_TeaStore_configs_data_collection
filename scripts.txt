@@ -39,3 +39,49 @@ kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-oct
 kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c6.yaml
 
 -start at c7-
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c7.yaml
+#unviable, retest
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c8.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c9.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c10.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c11.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c12.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c13.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c14.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c15.yaml
+#nonviable
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c16.yaml
+
+#retest c10, c3, c7, c15
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c17.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c18.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c19.yaml
+
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/super-octo-barnacle/master/teastore-rabbitmq-c1.yaml
+kubectl create -f https://raw.githubusercontent.com/KartikChawla-droid/Kube_TeaStore_configs_data_collection/main/teastore-ribbon-kieker-c20.yaml
